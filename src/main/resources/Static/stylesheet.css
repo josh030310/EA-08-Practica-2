@@ -1,0 +1,67 @@
+#content{
+    border:3px orange double;
+}    
+
+.MenuOptions{
+    border: 1px brown dotted;
+    background-color: whitesmoke;
+    width: 150px;
+}
+
+ul{
+    display:inline;
+    width: auto;
+}
+
+ul li{
+    display:inline-block;
+    width: none;
+    text-align: center;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+    ul li p a:link{
+        color:purple;    
+}
+
+ul li:nth-child(){
+    background-color: green;
+}    
+
+ul il p a:visited{
+    color: yellow;
+}
+
+ul il:hoover{
+    padding: 8px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 900px;
+    margin: 0 auto;
+    
+}
+
+.nav-menu{
+    display:flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    width: max-content;
+}
